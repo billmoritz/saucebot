@@ -4,5 +4,9 @@ hubot:
   - redis
   environment:
     REDIS_URL: redis://redis:6379
+  restart: always
 redis:
   image: redis
+  restart: always
+  ports:
+  - 6379:6379
