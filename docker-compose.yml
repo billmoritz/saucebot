@@ -4,9 +4,6 @@ hubot:
   - redis
   environment:
     REDIS_URL: redis://redis:6379
-    HUBOT_SENTIMENTAL_QUIET:true
-    HUBOT_GOOGLE_CSE_ID:
-    HUBOT_GOOGLE_CSE_KEY:
   restart: always
 redis:
   image: redis
