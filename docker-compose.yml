@@ -4,6 +4,11 @@ hubot:
   - redis
   environment:
     REDIS_URL: redis://redis:6379
+    HUBOT_YOUTUBE_API_KEY:
+    HUBOT_SLACK_TOKEN:
+    HUBOT_GOOGLE_CSE_ID:
+    HUBOT_GOOGLE_CSE_KEY:
+    HUBOT_SENTIMENTAL_QUIET:
   restart: always
 redis:
   image: redis
